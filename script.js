@@ -1,20 +1,20 @@
-var buttonDrum1 = document.getElementById('drum1')
-var sound1 = document.getElementById('sound1')
-buttonDrum1.addEventListener('click', function () {
-  sound1.play()
+var snareButton = document.getElementById('snare-button')
+var snareSound = document.getElementById('snare-sound')
+snareButton.addEventListener('click', function () {
+  snareSound.play()
   console.log('play1')
 })
 
-var buttonDrum2 = document.getElementById('drum2')
-var sound2 = document.getElementById('sound2')
-buttonDrum2.addEventListener('click', function () {
-  sound2.play()
+var rideButton = document.getElementById('ride-button')
+var rideSound = document.getElementById('ride-sound')
+rideButton.addEventListener('click', function () {
+  rideSound.play()
   console.log('play2')
 })
 
-var buttonDrum3 = document.getElementById('drum3')
-var sound3 = document.getElementById('sound3')
-buttonDrum3.addEventListener('click', function () {
-  sound3.play()
+var tomButton = document.getElementById('tom-button')
+var tomSound = document.getElementById('tom-sound')
+tomButton.addEventListener('click', function () {
+  tomSound.play()
   console.log('play3')
 })

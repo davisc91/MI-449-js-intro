@@ -22,15 +22,15 @@ h2 {
 }
 
 
-#drum1 {
+#snare-button {
   background-color: rgb(94, 255, 0);
 }
 
-#drum2 {
+#ride-button {
   background-color: rgb(50, 226, 226);
 }
 
-#drum3 {
+#tom-button {
   background-color: rgb(231, 165, 248);
 }
 
